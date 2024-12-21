@@ -1,0 +1,15 @@
+Task Details:
+1.	Take off the drone.
+2.	Command the drone to follow a pre-programmed flight path.
+3.	Capture images or short video clips (1-2 seconds each) along the route and save them to the ESP32-CAM's SD card.
+4.	Land the drone
+
+The route 
+Takeoff -> up 50 -> ccw 90 
+-> streamon (for 2 seconds) -> streamoff -> right 100 
+-> streamon (for 2 seconds) -> streamoff -> right 100
+-> streamon (for 2 seconds) -> streamoff -> cw 180 
+-> streamon (for 2 seconds) -> streamoff -> right 100
+-> streamon (for 2 seconds) -> streamoff -> right 100
+-> streamon (for 2 seconds) -> streamoff -> ccw 90
+-> land
